@@ -1,3 +1,4 @@
+// @ts-ignore
 <script>
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';

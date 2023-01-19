@@ -1,3 +1,4 @@
+// @ts-ignore
 <script lang="ts">
   import { page } from "$app/stores"
   import '../styles/app.css';
@@ -14,9 +15,7 @@
         <li class="nav-item" aria-current={$page.url.pathname === '/cats' ? 'page' : undefined}>
           <a href="/cats">Cats</a>
         </li>
-        <li class="nav-item" aria-current={$page.url.pathname === '/dogs' ? 'page' : undefined}>
-          <a href="/dogs">Dogs</a>
-        </li>
+        
       </ul>
     </nav>
   </header>
